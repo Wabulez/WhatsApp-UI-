@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/actionbar_tab_3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/Circular_Image_Width"
+            android:layout_height="@dimen/Circular_Image_Height"
+            android:src="@drawable/lady_paris_de"
+            android:padding="@dimen/Image_Padding"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joy"
+                android:textSize="@dimen/ContactName_TextSize"
+                android:textStyle="bold"
+                android:textColor="@color/Contact_Names"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today, 5:30 pm"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/Phone_Icon_Width"
+            android:layout_height="@dimen/Phone_Icon_Height"
+            android:src="@drawable/images"
+            android:layout_marginLeft="@dimen/Phone_Icon_Margin"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/Circular_Image_Width"
+            android:layout_height="@dimen/Circular_Image_Height"
+            android:src="@drawable/warning"
+            android:padding="@dimen/Image_Padding"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wachira"
+                android:textSize="@dimen/ContactName_TextSize"
+                android:textStyle="bold"
+                android:textColor="@color/Contact_Names"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today, 2:30 pm"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/Phone_Icon_Width"
+            android:layout_height="@dimen/Phone_Icon_Height"
+            android:src="@drawable/images"
+            android:layout_marginLeft="@dimen/Phone_Icon_Margin"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/Circular_Image_Width"
+            android:layout_height="@dimen/Circular_Image_Height"
+            android:src="@drawable/paint_splash_girl"
+            android:padding="@dimen/Image_Padding"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rachael"
+                android:textSize="@dimen/ContactName_TextSize"
+                android:textStyle="bold"
+                android:textColor="@color/Contact_Names"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today, 10:40 am"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/Phone_Icon_Width"
+            android:layout_height="@dimen/Phone_Icon_Height"
+            android:src="@drawable/images"
+            android:layout_marginLeft="@dimen/Phone_Icon_Margin"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

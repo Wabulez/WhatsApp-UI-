@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="Image_Padding">10dp</dimen>
+    <dimen name="Circular_Image_Width">80dp</dimen>
+    <dimen name="Circular_Image_Height">80dp</dimen>
+    <dimen name="ContactName_TextSize">20sp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="TextTime_LayoutWidth">100dp</dimen>
+    <dimen name="Time_MarginBottom">10dp</dimen>
+    <dimen name="Phone_Icon_Margin">130dp</dimen>
+    <dimen name="Phone_Icon_Width">50dp</dimen>
+    <dimen name="Phone_Icon_Height">50dp</dimen>
+</resources>
